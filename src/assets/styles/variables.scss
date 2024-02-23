@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+$font-size-root: 40px;
+
+$heading-font-family: "Inter", sans-serif;
+$body-font-family: "Inter", sans-serif;
+
+html,
+body,
+#app {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+$headings: (
+  "h1": (
+    "size": 3.2rem,
+    "weight": 400,
+    "line-height": 77.45px,
+    "font-family": $heading-font-family,
+  ),
+  "h2": (
+    "size": 2.4rem,
+    "weight": 400,
+    "line-height": 58.09px,
+    "font-family": $heading-font-family,
+  ),
+  "h3": (
+    "size": 1.8rem,
+    "line-height": 43.57px,
+    "font-family": $heading-font-family,
+  ),
+  "h4": (
+    "size": 1.2rem,
+    "line-height": 29.05px,
+    "font-family": $heading-font-family,
+  ),
+  "h5": (
+    "size": 0.9rem,
+    "line-height": 21.78px,
+    "font-family": $heading-font-family,
+  ),
+  "subtitle-1": (
+    "size": 0.8rem,
+    "weight": 400,
+    "line-height": 19.36px,
+    "font-family": $body-font-family,
+  ),
+  "subtitle-2": (
+    "size": 0.7rem,
+    "weight": 400,
+    "line-height": 16.94px,
+    "font-family": $body-font-family,
+  ),
+  "body-1": (
+    "size": 0.8rem,
+    "weight": 400,
+    "line-height": 19.36px,
+    "font-family": $body-font-family,
+  ),
+  "body-2": (
+    "size": 0.7rem,
+    "weight": 400,
+    "line-height": 23.8px,
+    "font-family": $body-font-family,
+  ),
+  "caption": (
+    "size": 0.7rem,
+    "weight": 400,
+    "line-height": 16.94px,
+    "font-family": $body-font-family,
+  ),
+  "overline": (
+    "size": 0.6rem,
+    "weight": 400,
+    "line-height": 14.52px,
+    "font-family": $body-font-family,
+  ),
+);
