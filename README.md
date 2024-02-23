@@ -1,11 +1,7 @@
-# template-vite-vue2-vuetify
-
-`Vite + Vue 2 + Vuex + Vue Router + Vuetify`
-
-## Start
+## Reference
 
 ```bash
-npx degit slime7/template-vite-vue2-vuetify my-project
+https://github.com/slime7/template-vite-vue2-vuetify
 ```
 
 ```bash
